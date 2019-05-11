@@ -1,0 +1,15 @@
+<SCRIPT LANGUAGE="JavaScript"><!— 
+var pid='lov1105'; 
+var urls = window.location.href; 
+var re = new RegExp("\\order=(.+?)\\b"); 
+var m = re.exec(urls); 
+if (re.exec(urls)!==null) 
+{ 
+document.write("<iframe src='http://www.astroworld.ru/frame/person1.htm?par="+pid+"&nz="+m[1]+"&url="+urls+"' width=600 height=800 frameborder=0></iframe>"); 
+} 
+else 
+{ 
+document.write("<iframe src='http://www.astroworld.ru/frame/person1.htm?par="+pid+"&url="+urls+"' width=600 height=800 frameborder=0></iframe>"); 
+} 
+// —> 
+</SCRIPT>
