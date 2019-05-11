@@ -1,0 +1,16 @@
+<SCRIPT LANGUAGE="JavaScript"><!--
+var pid='lov1105';
+var sty='http://ВАШ_САЙТ/style.css';
+var urls = window.location.href;
+var re = new RegExp("\\order=(.+?)\\b");
+var m = re.exec(urls);
+if (re.exec(urls)!==null)
+{
+document.write("<iframe src='http://www.astroworld.ru/frame/sovm1.htm?par="+pid+"&nz="+m[1]+"&styl="+sty+"&url="+urls+"' width=600 height=800 frameborder=0></iframe>");
+}
+else
+{
+document.write("<iframe src='http://www.astroworld.ru/frame/sovm1.htm?par="+pid+"&styl="+sty+"&url="+urls+"' width=600 height=800 frameborder=0></iframe>");
+}
+// -->
+</SCRIPT> 
